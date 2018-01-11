@@ -1,0 +1,37 @@
+public class person
+	{
+
+		static void sleeping()
+			{
+				System.out.println("sleeping is necessary");
+				
+			}
+
+		static void eating()
+			{
+				System.out.println("3 meals a day");
+				
+			}
+
+	}
+
+
+
+
+
+public class male extends person
+	{
+
+		public static void sleeping()
+			{
+				System.out.println("7 hours sleeping is necessary");
+
+			}
+
+		public static void beASon()
+			{
+				System.out.println("I'm a son of someone");
+
+			}
+
+	}
