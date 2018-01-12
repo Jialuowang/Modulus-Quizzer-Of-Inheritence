@@ -1,15 +1,15 @@
-public class person
+public class Person
 	{
 
-		static void sleeping()
+		public static void sleeping()
 			{
 				System.out.println("sleeping is necessary");
 				
 			}
 
-		static void eating()
+		public static void eating()
 			{
-				System.out.println("3 meals a day");
+				System.out.println("eating 3 meals a day");
 				
 			}
 
@@ -19,7 +19,7 @@ public class person
 
 
 
-public class male extends person
+public class Male extends Person
 	{
 
 		public static void sleeping()
