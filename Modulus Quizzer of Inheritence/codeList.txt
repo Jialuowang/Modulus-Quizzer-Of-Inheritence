@@ -1,13 +1,13 @@
 public class Person
 	{
 
-		public static void sleeping()
+		public void sleeping()
 			{
 				System.out.println("sleeping is necessary");
 				
 			}
 
-		public static void eating()
+		public void eating()
 			{
 				System.out.println("eating 3 meals a day");
 				
@@ -22,13 +22,13 @@ public class Person
 public class Male extends Person
 	{
 
-		public static void sleeping()
+		public void sleeping()
 			{
 				System.out.println("7 hours sleeping is necessary");
 
 			}
 
-		public static void beASon()
+		public void beASon()
 			{
 				System.out.println("I'm a son of someone");
 
